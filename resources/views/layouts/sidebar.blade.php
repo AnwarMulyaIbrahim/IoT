@@ -14,7 +14,7 @@
           <img src="dist/img/ipul.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Kelompok Ipul</a>
+          <a href="/" class="d-block">Kelompok Ipul</a>
         </div>
       </div>
 
@@ -26,7 +26,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+            <a href="/" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -35,23 +35,12 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="{{ route('schedules.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Page 1</p>
+                  <p>Data Schedules</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Page 2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Page 3</p>
-                </a>
-              </li>
+
             </ul>
           </li>
 
