@@ -15,5 +15,6 @@ class Schedule extends Model
 
     protected $casts = [
         'day' => 'array',
+        'time' => 'datetime:H:i',
     ];
 }
