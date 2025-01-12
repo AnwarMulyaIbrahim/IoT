@@ -60,11 +60,9 @@
 
 
         <footer class="main-footer">
-            <strong>Copyright &copy; 2024 KELOMPOK IPUL.</strong>
-            All rights reserved.
-            <div class="float-right d-none d-sm-inline-block">
-                <b>Version</b> 1.0.0
-            </div>
+            <button class="btn btn-success font-weight-bold btn-block" onclick="onPour('low')">
+                Tuang Sekarang
+            </button>
         </footer>
 
         <!-- Control Sidebar -->

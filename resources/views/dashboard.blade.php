@@ -38,7 +38,7 @@
                     <!-- small box -->
                     <div class="small-box bg-warning">
                         <div class="inner">
-                            <h3>44</h3>
+                            <h3>21</h3>
                             <p>Makan tiap minggu</p>
                         </div>
                         <div class="icon">

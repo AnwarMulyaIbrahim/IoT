@@ -35,7 +35,7 @@
                     @forelse($schedules as $schedule)
                         <tr>
                             <td>{{ $loop->iteration }}</td>
-                            <td>{{ $schedule->time }}</td>
+                            <td>{{ date('H:i', strtotime($schedule->time)) }}</td>
                             <td>{{ count($schedule->day) == 7 ? 'Setiap hari' : join(', ', $schedule->day) }}</td>
                             <td class="d-flex justify-content-center">
                                 <a href="{{ route('schedules.edit', $schedule->id) }}" class="btn btn-sm btn-warning">

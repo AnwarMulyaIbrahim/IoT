@@ -27,7 +27,7 @@
                     <div class="mb-3">
                         <label for="time" class="form-label">Time</label>
                         <input type="time" name="time" id="time" class="form-control"
-                            value="{{ old('time', $schedule->time) }}" required>
+                            value="{{ date('H:i', strtotime($schedule->time)) }}" required>
                     </div>
 
                     <!-- Day(s) Field -->

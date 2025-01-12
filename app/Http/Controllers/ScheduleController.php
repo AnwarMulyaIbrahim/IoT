@@ -86,6 +86,14 @@ class ScheduleController extends Controller
         ]);
 
 
+        $check = Schedule::whereTime("time", $request->time)->first();
+
+        if (isset($check)) {
+            return redirect()->back()->withErrors([
+                "message" => "Waktu tidak boleh sama!",
+            ],);
+        }
+
 
         $schedule->update([
             'time' => $request->time,
