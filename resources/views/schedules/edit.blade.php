@@ -32,7 +32,7 @@
                 <!-- Day(s) Field -->
                 <div class="mb-3">
                     <label for="day" class="form-label">Day(s)</label>
-                    <select name="day" id="day" class="form-select" value required>
+                    <select name="day" id="day" class="form-select form-control" required>
                         <option value="Monday" >Monday</option>
                         <option value="Tuesday" >Tuesday</option>
                         <option value="Wednesday" >Wednesday</option>

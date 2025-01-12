@@ -37,10 +37,10 @@
                     <td>{{ $schedule->id }}</td>
                     <td>{{ $schedule->time }}</td>
                     <td>{{ $schedule->day }}</td>
-                    <td>
+                    <td class="d-flex justify-content-center">
                         <a href="{{ route('schedules.edit', $schedule->id) }}" class="btn btn-sm btn-warning">
                             <i class="fas fa-edit"></i> Edit
-                        </a>
+                        </a> &nbsp;
                         <form action="{{ route('schedules.destroy', $schedule->id) }}" method="POST" class="d-inline">
                             @csrf
                             @method('DELETE')

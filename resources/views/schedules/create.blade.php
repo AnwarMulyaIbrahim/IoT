@@ -25,7 +25,7 @@
 
         <div class="mb-3">
             <label for="day" class="form-label">Day(s)</label>
-            <select name="day" id="day" class="form-select" required>
+            <select name="day" id="day" class="form-select form-control" required>
                 <option value="Monday" >Monday</option>
                 <option value="Tuesday" >Tuesday</option>
                 <option value="Wednesday" >Wednesday</option>
@@ -37,7 +37,7 @@
         </div>
 
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-success">
                 <i class="fas fa-save"></i> Save Schedule
             </button>
         </div>
